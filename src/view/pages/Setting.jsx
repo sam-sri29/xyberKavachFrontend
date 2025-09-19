@@ -1,4 +1,5 @@
 import { TbLogout2 } from "react-icons/tb";
+import About from "../Components/SettingComponents/About";
 
 export default function Setting({ isOpen, onClose }) {
   return (
@@ -26,7 +27,7 @@ export default function Setting({ isOpen, onClose }) {
 
         <div className="p-4">
           <div className="flex items-center space-x-4 p-4 hover:bg-gray-700 rounded cursor-pointer">
-            <TbLogout2 className="text-2xl"/><span>Logout</span>
+            <About />
           </div>
           <hr className="text-sm my-2"/>
           <div className="flex items-center space-x-4 p-4 hover:bg-gray-700 rounded cursor-pointer">
