@@ -1,8 +1,8 @@
 import React from 'react'
 import OnBoarding from './view/OnBoarding'
 import { Route, Routes } from 'react-router-dom'
-import Signup from './view/Components/Signup'
-import Login from './view/Components/Login'
+import Signup from './view/Signup'
+import Login from './view/Login'
 import RegisterSite from './view/RegisterSite'
 import Dashboard from './view/Dashboard'
 import Alerts from './view/pages/Alerts'
@@ -12,7 +12,7 @@ import BlockedData from './view/pages/BlockedAttacks'
 import BlockedAttacks from './view/pages/BlockedAttacks'
 import Vulnerabilities from './view/pages/Vulnerabilities'
 import SystemHealth from './view/pages/SystemHealth'
-import Setting from './view/pages/Setting'
+import ForgotPassword from './view/pages/ForgotPassword'
 
 const App = () => {
   return (
@@ -29,7 +29,7 @@ const App = () => {
       <Route path='/blocked-attacks' element={<BlockedAttacks/>}/>
       <Route path='/vulnerabilities' element={<Vulnerabilities/>}/>
       <Route path='/system-health' element={<SystemHealth/>}/>
-      <Route path='/settings' element={<Setting/>}/>
+      <Route path='/forgot-password' element={<ForgotPassword/>}/>
     </Routes>
     </>
   )
