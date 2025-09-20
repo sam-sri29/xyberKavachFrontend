@@ -190,12 +190,12 @@ function OnBoarding() {
                         <div className="flex items-center" style={{ animation: 'float 4s ease-in-out infinite' }}>
                             <IoShieldHalfOutline className='text-6xl text-blue-300 drop-shadow-lg' />
                             <p className='bg-gradient-to-r from-blue-400 via-purple-400 to-blue-300 bg-clip-text text-transparent text-4xl font-semibold ml-2 typing-text'>
-                                Xyber Kavach.
+                                Xyber Kavach
                             </p>
                         </div>
                         <div className="flex items-center" style={{ animation: 'float 4s ease-in-out infinite' }}>
                             <p className='bg-gradient-to-r from-blue-400 via-purple-400 to-blue-300 bg-clip-text text-transparent text-3xl font-semibold typing-text'>
-                                One shield , Endless Protection.
+                                One shield <span className='text-white text2xl'>.</span> Endless Protection
                             </p>
                         </div>
                     </div>
