@@ -1,5 +1,10 @@
 import { TbLogout2 } from "react-icons/tb";
 import About from "../Components/SettingComponents/About";
+import { BsInfoCircle } from "react-icons/bs";
+import { FaRegEdit } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
+
 
 export default function Setting({ isOpen, onClose }) {
   return (
@@ -26,22 +31,23 @@ export default function Setting({ isOpen, onClose }) {
         </div>
 
         <div className="p-4">
-          <div className="flex items-center space-x-4 p-4 hover:bg-gray-700 rounded cursor-pointer">
-            <About />
-          </div>
+          <Link to="/edit">
+            <div className="flex items-center space-x-4 p-4 hover:bg-gray-700 rounded cursor-pointer">
+              <FaRegEdit className="text-2xl"/><span>Edit Profile</span>
+            </div>
+          </Link>
           <hr className="text-sm my-2"/>
+          <Link to="/about">
+            <div className="flex items-center space-x-4 p-4 hover:bg-gray-700 rounded cursor-pointer">
+            <BsInfoCircle className="text-2xl"/><span>About</span>
+          </div>
+          </Link>
+          <hr className="text-sm my-2"/>
+          <Link to="/ ">
           <div className="flex items-center space-x-4 p-4 hover:bg-gray-700 rounded cursor-pointer">
             <TbLogout2 className="text-2xl"/><span>Logout</span>
           </div>
-          <hr className="text-sm my-2"/>
-          <div className="flex items-center space-x-4 p-4 hover:bg-gray-700 rounded cursor-pointer">
-            <TbLogout2 className="text-2xl"/><span>Logout</span>
-          </div>
-          <hr className="text-sm my-2"/>
-          <div className="flex items-center space-x-4 p-4 hover:bg-gray-700 rounded cursor-pointer">
-            <TbLogout2 className="text-2xl"/><span>Logout</span>
-          </div>
-          <hr className="text-sm my-2"/>
+          </Link>
         </div>
       </div>
     </>

@@ -14,11 +14,12 @@ import Vulnerabilities from './view/pages/Vulnerabilities'
 import SystemHealth from './view/pages/SystemHealth'
 import ForgotPassword from './view/pages/ForgotPassword'
 import About from './view/Components/SettingComponents/About'
+import Edit from './view/pages/Edit'
 
 const App = () => {
   return (
     <>
-    {/* <Routes>
+    <Routes>
       <Route path='/' element={<OnBoarding/>}/>
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/login' element={<Login/>}/>
@@ -31,8 +32,9 @@ const App = () => {
       <Route path='/vulnerabilities' element={<Vulnerabilities/>}/>
       <Route path='/system-health' element={<SystemHealth/>}/>
       <Route path='/forgot-password' element={<ForgotPassword/>}/>
-    </Routes> */}
-    <About />
+      <Route path='/about' element={<About/>}/> 
+      <Route path='/edit' element={<Edit/>}/>
+    </Routes>
     </>
   )
 }
