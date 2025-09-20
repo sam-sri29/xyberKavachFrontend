@@ -14,7 +14,7 @@ import Vulnerabilities from './view/pages/Vulnerabilities'
 import SystemHealth from './view/pages/SystemHealth'
 import ForgotPassword from './view/pages/ForgotPassword'
 import About from './view/Components/SettingComponents/About'
-import Edit from './view/pages/Edit'
+import Edit from './view/Components/SettingComponents/Edit'
 
 const App = () => {
   return (

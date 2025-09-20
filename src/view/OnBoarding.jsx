@@ -1,44 +1,7 @@
-// import React from 'react'
-// import { IoShieldHalfOutline } from "react-icons/io5";
-// import { Link } from 'react-router-dom';
-
-// function OnBoarding() {
-//     return (
-//         <>
-//             <div className='h-screen w-screen flex flex-col'>
-//                 <div className='flex h-[70vh] bg-[linear-gradient(135deg,#0f172a_0%,#1e293b_100%)] items-center justify-center'>
-//                     <IoShieldHalfOutline className='size-15 text-blue-950' /><p className='bg-[linear-gradient(135deg,#667eea_0%,#764ba2_100%)] bg-clip-text text-transparent text-4xl font-semibold ml-2'>Xyber Kavach</p>
-
-//                 </div>
-
-
-//                 <div className="flex h-[30vh] bg-[linear-gradient(135deg,#0f172a_0%,#1e293b_100%)]">
-//                     {/* Left 50% */}
-//                     <div className="flex flex-col w-1/2 items-center justify-center text-white">
-//                         <p className="text-lg mb-2">New to <span className="font-semibold bg-[linear-gradient(135deg,#667eea_0%,#764ba2_100%)] bg-clip-text text-transparent">Xyber Kavach?</span></p>
-//                         <Link to='/signup'><button className="px-4 py-2 bg-blue-950 rounded-lg hover:bg-blue-900">Signup</button></Link>
-//                     </div>
-
-//                     {/* Right 50% */}
-//                     <div className="flex flex-col w-1/2 items-center justify-center text-white">
-//                         <p className="text-lg mb-2">Already a family member?</p>
-//                         <Link to="/login"><button className="px-4 py-2 bg-blue-950 rounded-lg hover:bg-blue-900">Login</button></Link>
-//                     </div>
-//                 </div>
-
-//             </div>
-
-
-//         </>
-//     )
-// }
-
-// export default OnBoarding
-
-
 import React from 'react'
 import { IoShieldHalfOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import { Shield } from 'lucide-react';
 
 function OnBoarding() {
     return (
@@ -188,14 +151,14 @@ function OnBoarding() {
                 <div className='relative z-10 flex h-[70vh] items-center justify-center'>
                     <div className='flex flex-col items-center space-y-4'>
                         <div className="flex items-center" style={{ animation: 'float 4s ease-in-out infinite' }}>
-                            <IoShieldHalfOutline className='text-6xl text-blue-300 drop-shadow-lg' />
-                            <p className='bg-gradient-to-r from-blue-400 via-purple-400 to-blue-300 bg-clip-text text-transparent text-4xl font-semibold ml-2 typing-text'>
+                            <IoShieldHalfOutline className='text-8xl text-blue-300 drop-shadow-lg' />
+                            <p className='bg-gradient-to-r from-blue-400 via-purple-400 to-blue-300 bg-clip-text text-transparent text-7xl font-semibold ml-2 typing-text'>
                                 Xyber Kavach
                             </p>
                         </div>
                         <div className="flex items-center" style={{ animation: 'float 4s ease-in-out infinite' }}>
                             <p className='bg-gradient-to-r from-blue-400 via-purple-400 to-blue-300 bg-clip-text text-transparent text-3xl font-semibold typing-text'>
-                                One shield <span className='text-white text2xl'>.</span> Endless Protection
+                                Stronger Than Every Threat 
                             </p>
                         </div>
                     </div>

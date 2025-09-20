@@ -21,7 +21,7 @@ function RightCard() {
                 </div>
                 <input type="email" className='bg-gray-700 mt-3 border rounded-lg outline-1 outline-gray-600 border-none px-3 py-2 text-white  placeholder:text-sm' placeholder='+1 (555) 123-4567' />
             </div >
-            <div className='py-2'>
+            {/* <div className='py-2'>
                 <div className='flex justify-between items-center'>
                     <p className='text-white font-semibold text-sm'>🔔 Push Notifications</p>
                     <ToggleSwitch />
@@ -34,7 +34,7 @@ function RightCard() {
                     <ToggleSwitch />
                 </div>
                 <input type="email" className='bg-gray-700 mt-3 border rounded-lg outline-1 outline-gray-600 border-none px-3 py-2 text-white  placeholder:text-sm' placeholder='#security-alerts' />
-            </div>
+            </div> */}
         </div>
     )
 }
